@@ -1,0 +1,15 @@
+!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Учим JavaScript</title>
+</head>
+<body>
+
+
+<script>
+	alert("Guys, it`s time for sleep");
+</script>
+
+</body>
+</html>
