@@ -5,7 +5,8 @@
 	<title>Учим JavaScript</title>
 </head>
 <body>
-
+<hr size=5px color=black>
+<h1>It's a hacker, bro! I stole your shadows in my room!</h1>
 
 <script>
 	alert("Guys, it`s time for sleep");
