@@ -1,0 +1,33 @@
+<script>
+	let year = prompt("На сколько лет хотите взять аренду квартиры:");
+
+	let num = year;
+	
+	if (year == 1) num = "год";
+	else if (year == 3) num = "года";
+	else if (year == 5) num = "лет";
+	else num = "";
+
+	let sure = confirm(`Вы точно хотите арендовать квартиру на: ${year} ${num}?`);
+	if (sure == true) {
+		sure = true;
+	} else {
+		alert("Хорошего дня! Если передумаете - возвращайтесь!");
+	}
+
+
+	switch(year) {
+	  case "1":
+	    alert("Вы арендовали квартиру на 1 год!");
+	    break;
+	  case "3":
+	  	alert("Вы арендовали квартиру на 3 года!");
+	  	break;
+	  case "5":
+	  	alert("Вы арендовали квартиру на 5 лет!");
+	  	break;
+	  default:
+	  	alert("К сожалению, мы арендуем квартиры только на 1, 3 и 5 лет");
+	}
+
+</script>
