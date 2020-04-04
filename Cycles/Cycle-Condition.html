@@ -1,0 +1,31 @@
+<script>
+	alert("Hi, Bro!")
+	let i = prompt("Введите ваш возраст:", "");
+	if (i < 18) {
+	  alert("Ты ещё слишком мал, мой ученик...") ;
+	} else if (i > 21) {
+	  alert("Ты слишком стар для этого, дедуля...");
+	} else {
+	  alert("Ладно, идём...");
+	} 
+	let x = confirm("Но ты готов к этому?");
+	if (x == true) {
+	  alert("Хорошо, значит есть куда идти");
+	} else alert("Зачем ты тратишь моё время, малец?");
+
+	let bin = 2;
+	while (bin < 6) {
+		alert(bin);
+		bin++
+	}
+
+	let cos = 0;
+	do {
+	  alert(cos);
+	  cos = cos + 2;
+	} while (cos < 6)
+
+	for (let long = 0; long <7; long = long + 2) {
+		alert(long);
+	}
+</script>
