@@ -1,0 +1,30 @@
+<script>
+
+	function destination(from, to) {
+	alert(from + " - " + to);		
+	}
+	destination("Alex", "Kate");	// 1st Task. It's just a little function using 2 parameters - From and To.
+
+
+	function textOpinion(name, opinion = "As for me this film is fascinating!") {
+		name = "-" + name + "-";
+		alert(name + " say: " + opinion);
+	}
+	textOpinion("Hanz Eichenwald");		// 2nd Task. Changing one of the parameter inside of function
+
+	function checkAge(age) {
+       if (age > 18) {
+    return true;
+    } else {
+    return confirm('А родители разрешили?');
+    }
+    }
+
+	let age = prompt('Сколько вам лет?', 18);
+
+      if ( checkAge(age) ) {
+    alert( 'Доступ получен' );
+    } else {
+     alert( 'Доступ закрыт' );
+    }		// 3rd Task. Using "Return" with function
+</script>
